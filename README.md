@@ -1,11 +1,11 @@
 # Fuel-Check
 Repository for Fuel Check Pro App release PreAlpha and subsequent versions supported on android.
 
-# The best fuel check app for crew cheifs around the world
+# The best fuel check app for crew chiefs around the world
 - use the timer to conduct fuelchecks with ease
 - uses background services to keep timer running even when you leave the app
 - themes allow you customize your fuel check experience
-- built in calculator for any odd calucations you may need
+- built in calculator for any odd calculations you may need
 
 ![Screenshot from 2023-01-09 23-13-51](https://user-images.githubusercontent.com/99012095/211460780-8a252266-2b0d-4198-bc6a-462a595ab758.png)
 ![Screenshot from 2023-01-09 23-14-26](https://user-images.githubusercontent.com/99012095/211460784-069dbda8-e724-4e12-9604-da5e81cd5f44.png)
