@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/history_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="18sp"
+            android:text="App Info"
+            android:textAlignment="center"
+            android:textSize="28sp"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="400sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16sp"
+                    android:layout_marginBottom="8sp"
+                    android:text="Fuel Check Pro"
+                    android:textSize="22sp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/history_check_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="8sp"
+                    android:layout_marginHorizontal="24sp"
+                    android:lineSpacingExtra="8sp"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:text="@string/info_fuelCheck"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="8sp"
+                    android:text="Fuel Checker"
+                    android:textSize="22sp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/history_check_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="8sp"
+                    android:layout_marginHorizontal="24sp"
+                    android:lineSpacingExtra="8sp"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:text="@string/info_fuelChecker"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="8sp"
+                    android:text="Calculator"
+                    android:textSize="22sp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/history_check_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="8sp"
+                    android:layout_marginHorizontal="24sp"
+                    android:lineSpacingExtra="8sp"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:text="@string/info_calculator"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="8sp"
+                    android:text="Sandbox Mode"
+                    android:textSize="22sp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/history_check_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="8sp"
+                    android:layout_marginHorizontal="24sp"
+                    android:lineSpacingExtra="8sp"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:text="@string/info_sandbox"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="8sp"
+                    android:text="History"
+                    android:textSize="22sp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/history_check_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="8sp"
+                    android:layout_marginHorizontal="24sp"
+                    android:lineSpacingExtra="8sp"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:text="@string/info_history"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginBottom="8sp"
+                    android:text="Themes"
+                    android:textSize="22sp"
+                    android:textAlignment="center"/>
+
+                <TextView
+                    android:id="@+id/history_check_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="8sp"
+                    android:layout_marginHorizontal="24sp"
+                    android:lineSpacingExtra="8sp"
+                    android:textSize="18sp"
+                    android:textAlignment="textStart"
+                    android:text="@string/info_themes"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <Button
+            android:id="@+id/dialog_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12sp"
+            app:cornerRadius="5sp"
+            android:textSize="18sp"
+            android:text="Return"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

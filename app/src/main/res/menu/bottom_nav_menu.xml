@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/bottom_nav_menu"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_calc"
+            android:icon="@drawable/ic_baseline_calculate_24"
+            android:title="" />
+
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_baseline_local_gas_station_24"
+            android:title="" />
+
+        <item
+            android:id="@+id/navigation_more"
+            android:icon="@drawable/ic_baseline_edit_note_24"
+            android:title="" />
+    </group>
+</menu>

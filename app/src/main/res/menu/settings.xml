@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/settings_menu"
+        android:title=""
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/settings_history"
+        android:title="@string/title_history"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/settings_themes"
+        android:title="@string/title_themes"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item android:id="@+id/dark_theme"
+                android:title="@string/title_dark"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/light_theme"
+                android:title="@string/title_light"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/nvg_theme"
+                android:title="@string/title_nvg"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/dracula_theme"
+                android:title="@string/title_dracula"
+                app:showAsAction="never"/>
+
+        </menu>
+
+    </item>
+
+    <item android:id="@+id/settings_about"
+        android:title="@string/title_info"
+        app:showAsAction="never"/>
+
+</menu>

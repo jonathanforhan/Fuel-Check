@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Fuel Check</string>
+    <string name="title_calc">Calculator</string>
+    <string name="title_home">Home</string>
+    <string name="title_more">More</string>
+    <string name="title_history">History</string>
+    <string name="title_info">Info</string>
+
+    <string name="title_themes">Themes</string>
+    <string name="title_light">Light</string>
+    <string name="title_dark">Dark</string>
+    <string name="title_nvg">NVG</string>
+    <string name="title_dracula">Tokyo</string>
+
+    <!-- calc buttons -->
+    <string name="calc_clear">C</string>
+    <string name="calc_sign">+/-</string>
+    <string name="calc_sqr">x²</string>
+    <string name="calc_divide">÷</string>
+    <string name="calc_seven">7</string>
+    <string name="calc_eight">8</string>
+    <string name="calc_nine">9</string>
+    <string name="calc_times">×</string>
+    <string name="calc_four">4</string>
+    <string name="calc_five">5</string>
+    <string name="calc_six">6</string>
+    <string name="calc_minus">-</string>
+    <string name="calc_one">1</string>
+    <string name="calc_two">2</string>
+    <string name="calc_three">3</string>
+    <string name="calc_plus">+</string>
+    <string name="calc_zero">0</string>
+    <string name="calc_point">.</string>
+    <string name="calc_equals">=</string>
+
+    <string name="home_start">START</string>
+    <string name="starting_fuel">Starting Fuel (lbs)</string>
+    <string name="ending_fuel">Ending Fuel (lbs)</string>
+    <string name="reserve_time">Reserve Needed (mins)</string>
+    <string name="done">DONE</string>
+    <string name="clear">CLEAR</string>
+    <string name="zero_count">00:00</string>
+
+    <string name="info_fuelCheck">Fuel Check Pro\'s new update brings a lot of excited features like themes, Sandbox Mode, a built in calculator as well as the same Fuel Checker you know and love</string>
+    <string name="info_fuelChecker">Tap the timer to start your Fuel Check, tap again to pause. Enter your data and hit done to complete your fuel check, hit clear to clear all inputs and outputs</string>
+    <string name="info_calculator">Our Fuel Check Pro calculator helps you with on the go math, without having to leave the app</string>
+    <string name="info_sandbox">Sandbox Mode is a new feature allowing you to play around with the numbers of your fuel checks, tap the timer to set the duration and tap the current time to set your desired start time of the Fuel Check, otherwise it functions the same as the base Fuel Checker</string>
+    <string name="info_history">The new history feed was one of our most requested features, you can now look at your past 10 fuels checks. The Fuel Checks you complete automatically get added to the history queue</string>
+    <string name="info_themes">Themes are a new features that are both functional and aesthetic, featuring dark, light, tokyo and NVG themes theres something for everyone</string>
+
+</resources>

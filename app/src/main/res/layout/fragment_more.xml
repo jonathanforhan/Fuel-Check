@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true"
+    android:clickable="true"
+    android:id="@+id/moreLinearLayout"
+    android:layout_marginBottom="52sp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.more.MoreFragment">
+
+    <TextView
+        android:id="@+id/more_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="92sp"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_marginBottom="10sp"
+        android:text="00:00"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/more_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:focusable="true"
+        android:clickable="true"
+        android:text="00:00"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/startingFuel"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="9sp"
+        android:backgroundTint="?attr/colorPrimary"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:textSize="18sp"
+        android:maxLength="7"
+        android:hint="@string/starting_fuel">
+    </EditText>
+
+    <EditText
+        android:id="@+id/endingFuel"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="12sp"
+        android:backgroundTint="?attr/colorPrimary"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:textSize="18sp"
+        android:maxLength="7"
+        android:hint="@string/ending_fuel">
+    </EditText>
+
+    <EditText
+        android:id="@+id/reserveTime"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="12sp"
+        android:layout_marginBottom="12sp"
+        android:backgroundTint="?attr/colorPrimary"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:textSize="18sp"
+        android:maxLength="3"
+        android:hint="@string/reserve_time">
+    </EditText>
+
+    <TextView
+        android:id="@+id/textOut1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4sp"
+        android:textSize="18sp"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/textOut2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4sp"
+        android:textSize="18sp"
+        android:text=""/>
+
+    <TextView
+        android:id="@+id/textOut3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4sp"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textOut4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4sp"
+        android:textSize="18sp"
+        android:text=""/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:focusable="false"
+        android:layout_marginTop="5sp"
+        >
+
+        <Button
+            android:id="@+id/done_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8sp"
+            android:focusable="false"
+            app:cornerRadius="5sp"
+            android:textSize="18sp"
+            android:text="@string/done"
+            />
+
+        <Button
+            android:id="@+id/clear_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8sp"
+            android:focusable="false"
+            app:cornerRadius="5sp"
+            android:textSize="18sp"
+            android:text="@string/clear"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
